@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BestShop</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:ital,wght@0,100;0,300;0,700;1,300&display=swap"
         rel="stylesheet">
@@ -17,12 +17,18 @@
     <div class="navigation">
         <div class="logo">BestShop</div>
         <div class="nav">
-            <ul>
-                <li>WHY US</li>
-                <li>BENEFITS</li>
-                <li>PRICES</li>
-                <li>CONTACT</li>
+            <ul class="nav-menu">
+                <li class="nav-item"><a class="nav-link" href="">WHY US</a></li>
+                <li class="nav-item"><a class="nav-link" href="">BENEFITS</a></li>
+                <li class="nav-item"><a class="nav-link" href="">PRICES</a></li>
+                <li class="nav-item"><a class="nav-link" href="">CONTACT</a></li>
             </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
     </div>
     <section class="opening">
@@ -30,6 +36,7 @@
         <p>Open shop on our platform and increase your sales</p>
         <button><a href="">Open your shop</a> </button>
         <div class="img"></div>
+ 
     </section>
     <section class="statistics">
         <h2>The most popular sales platform in country</h2>
@@ -52,8 +59,8 @@
                 <p>added posts daily</p>
             </div>
         </div>
-
     </section>
+
     <section class="benefits">
         <div class="ben-div1">
             <div class="text">
@@ -97,8 +104,10 @@
         <div class="aligndivs">
             <div class="pricing-divs">
                 <div class="red-div">
-                    <h3>Basic</h3>
+                    <div class="leftd"><h3>Basic</h3>
                     <h1>$0</h1>
+                    </div>
+                    <div class="lists">
                     <ul>
                         <li class="g">100 MB HDD</li>
                         <li class="g">1 Subdomain</li>
@@ -106,11 +115,14 @@
                         <li class="r">Two years license</li>
                         <li class="r">Full support</li>
                     </ul>
+                </div>
                     <button class="red-btn">Begin</button>
                 </div>
                 <div class="blue-div">
-                    <h3>Professional</h3>
+                    <div class="leftd"><h3>Professional</h3>
                     <h1>$25</h1>
+                </div>
+                <div class="lists">
                     <ul>
                         <li class="g">500 MB HDD</li>
                         <li class="g">2 Subdomains</li>
@@ -118,11 +130,15 @@
                         <li class="g">One years license</li>
                         <li class="r">Full support</li>
                     </ul>
+                </div>
                     <button class="blue-btn">Begin</button>
                 </div>
                 <div class="green-div">
+                    <div class="leftd">
                     <h3>Premium</h3>
                     <h1>$60</h1>
+                </div>
+                <div class="lists">
                     <ul>
                         <li class="g">2 GB HDD</li>
                         <li class="g">5 Subdomains</li>
@@ -130,6 +146,7 @@
                         <li class="g">Two years license</li>
                         <li class="g">Full support</li>
                     </ul>
+                </div>
                     <button class="green-btn">Begin</button>
                 </div>
             </div>
@@ -140,10 +157,10 @@
                 <div class="questions">
                     <h4 class="h1">Any questions?</h4>
                     <h3>Leave your email address or call us!</h3>
-                    <div class="pjat"><img src="assets/Mail Icon.svg" alt="">
-                        <p class="em">info@bestshop.xyz</p><img src="assets/Phone Icon.svg" alt=""
-                            style="padding-left:20px;">
-                        <p class="ph">123 456 789</p>
+                    <div class="pjat"><div class="p1"><img src="assets/Mail Icon.svg" alt="">
+                        <p class="em">info@bestshop.xyz</p>
+                    </div><div class="p2"><img id="img" src="assets/Phone Icon.svg" alt="">
+                        <p class="ph">123 456 789</p></div>
                     </div>
                 </div>
 
@@ -183,5 +200,5 @@
 </div>
 </div>
 </footer>
-
+<script src="script.js"></script>
 </html>
