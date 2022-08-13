@@ -961,7 +961,7 @@ body {
     align-items: center;
     width: 314px;
     height: 370px;
-    z-index: 0;
+    opacity: 1;
   }
   .ben-div2 .blue {
     position: relative;
@@ -1132,7 +1132,7 @@ body {
     align-items: center;
     margin: 20px 0;
     position: relative;
-    z-index: -1;
+    z-index: 0;
   }
   .pricing .pricing-divs .blue-div .blue-btn {
     width: 165px;
