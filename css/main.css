@@ -18,6 +18,7 @@ body {
   align-items: center;
   font-family: "Raleway", sans-serif;
   position: fixed;
+  z-index: 5;
 }
 
 .nav ul li {
@@ -75,6 +76,7 @@ body {
   opacity: 1;
   font-size: 49px;
   padding-top: 80px;
+  margin-top: 80px;
 }
 .opening p {
   text-align: center;
@@ -103,6 +105,7 @@ body {
 .stat-blocks {
   display: flex;
   justify-content: center;
+  z-index: -1;
 }
 .stat-blocks > div {
   padding: 50px;
@@ -203,6 +206,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 0;
 }
 
 .ben-div2 {
@@ -213,6 +217,7 @@ body {
   border-radius: 5px;
   opacity: 1;
   margin: 15px;
+  z-index: 0;
 }
 
 .ben-div3 {
@@ -1069,6 +1074,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 20px 0;
+    z-index: 0;
   }
   .pricing .pricing-divs .red-div .red-btn {
     width: 150px;
@@ -1126,6 +1132,7 @@ body {
     align-items: center;
     margin: 20px 0;
     position: relative;
+    z-index: -1;
   }
   .pricing .pricing-divs .blue-div .blue-btn {
     width: 165px;
